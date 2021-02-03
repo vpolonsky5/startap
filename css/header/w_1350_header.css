@@ -1,0 +1,109 @@
+@media screen and (min-width: 1350px)
+{
+	.header
+	{
+		/* Style for "Home Secti" */
+		width: 100%; /*1600px*/
+	    height: 770px;
+	    background: url(../../img/Home_Background.png) no-repeat;
+	    background-size: 100% 100%;
+	    align-items: right;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+	.logonav
+	{
+	 	/* Style for "Header Nav" */
+		width: 71%; /*1141px;*/
+		height: 23px;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 40px;
+	}
+	.logo p
+	{
+		/* Style for "Startup" */
+		width: 91px;
+	    height: 23px;
+	    color: #ffffff;
+	    font-family: Montserrat;
+	    font-size: 24px;
+	    font-weight: 700;
+	    line-height: 1em;
+	    margin: 0;	
+	}
+	.menu
+	{
+		/* Style for "Nav" */
+		width: 540px;
+		height: 14px;
+		display: flex;
+		justify-content: space-around;
+	}
+	.menu a
+	{
+		/* Style for "Home" */
+		width: 540px;
+		height: 14px;
+		text-decoration: none;
+		color: #ffffff;
+		font-family: Montserrat;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+		/* Text style for "H, ome" */
+		letter-spacing: 0.35px;
+		text-align: -webkit-right;
+	}
+	.captions
+	{
+
+		/* Style for "Captions" */
+		width: 581px;
+		height: 187px;
+		margin-top: 264px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.welcome
+	{
+		/* Style for "Welcome to" */
+		width: 581px;
+		height: 87px;
+		margin-bottom: auto;
+		color: #ffffff;
+		font-family: "Roboto Slab";
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 24px;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;		
+	}
+	.welcome p
+	{
+		color: #ffffff;		
+	}	
+	.captions__button
+	{			
+		/* Style for "Get starte" */
+		width: 180px;
+		height: 50px;	
+		/* Style for "Get Starte" */
+		/*width: 111px;
+		height: 13px;*/
+		color: #ffffff;
+			font-family: Montserrat;
+	    font-size: 16px;
+	    font-weight: 400;
+	    line-height: 24px;
+	    text-transform: uppercase;
+	    background: unset;
+	    border: solid 2px white;
+	    box-sizing: border-box;
+	}
+}

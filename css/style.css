@@ -1,0 +1,97 @@
+@import "header/w_1350_header.css" screen;
+@import "services/w_1350_services.css" screen;
+@import "about/w_1350_about.css" screen;
+@import "works/w_1350_works.css" screen;
+@import "talk/w_1350_talk.css" screen;
+@import "blog/w_1350_blog.css" screen;
+@import "clients/w_1350_clients.css" screen;
+@import "contact/w_1350_contact.css" screen;
+@import "footer/w_1350_footer.css" screen;
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+h1
+{
+	/* Text style for "W, elcome" */
+	font-family: Montserrat;
+    font-size: 2.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 0.8em;
+    margin-bottom: 25px;
+}
+h2
+{
+	color: #555555;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: center;
+}
+h3
+{
+	color: #555555;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+h4
+{
+	color: #555555;
+	font-family: Montserrat;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+h5
+{	
+	color: #ffffff;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+p
+{
+	color: #555555;
+	font-family: "Roboto Slab";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+font
+{
+	color: #c0301c;
+}
+hr
+{
+	height: 2px;
+    width: 50px;
+    margin: 28px auto;
+    background-color: #555555;
+
+}
+.main
+{
+	width: 100%;
+	height: auto;
+}
+.explanation
+{
+	color: #555555;
+	font-family: "Roboto Slab";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+}	

@@ -1,0 +1,94 @@
+@media screen and (min-width: 1350px)
+{
+	.about
+	{
+		width: 100%;
+		height: 852px;
+		padding-top: 99px;
+		background-color: #f8f8f8;
+		text-align: center;
+	}
+	.about h3
+	{
+		line-height: 24px;		
+	}
+	.team
+	{
+		width: 1140px;
+		height: 491px;
+		margin: 70px auto 0 auto;
+		display: grid;
+		grid-template-rows: 110px 307px /*высота 1-го ряда 110px второго -307px*/;
+		grid-template-columns: 263px 263px 263px 263px;
+		grid-row-gap: 79px; /*расстояние между строками*/
+		grid-column-gap: 29px; /*расстояние между колонками*/
+	}
+	.team div:nth-child(1)
+	{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+	.team div:nth-child(2)
+	{
+		grid-column-start: 3;
+    	grid-column-end: 5
+	}
+	.team p
+	{
+		text-align: justify;
+	}
+	
+	.team__photo p
+	{
+		font-size: 13px;
+		text-align:center;
+	}
+	.team__photo-decor
+	{
+		height: 250px;
+		margin-bottom: 20px;
+		background-color: #555555;
+
+	}
+	.team__photo-img
+	{
+		box-sizing: border-box;
+		position: relative;
+		z-index: 1;
+		transition: all 1s; /*плавный переход*/
+	}
+	.team__photo-decor:hover .team__photo-img
+	{
+		opacity: 0.7;
+	}
+	.team__photo-icon
+	{
+	    height: 28px;
+	    width: 114px;
+	    z-index: 2;
+	    position: absolute;
+	    margin: 187px 75px 34px 74px;
+	    display: flex;
+	    justify-content: space-between;
+	    opacity: 0;	    
+	}	
+	.team__photo-decor:hover .team__photo-icon
+	{
+		opacity: 1;
+		transition: all 1s;
+		cursor: pointer;
+
+	}
+	.icon-social
+	{
+		width: 25%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.icon-social:hover
+	{
+		background-color: #c0301c;
+	}
+}

@@ -1,0 +1,89 @@
+@media screen and (min-width: 1350px)
+{
+	.clients
+	{
+		width: 100%;
+		height: auto;
+		background-color: #f8f8f8;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.clients-logo
+	{
+		width: 56.1%; /*898px;*/
+		height: 49px;
+		margin-top: 98px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.deorham
+	{
+		width: 141px;
+		height: 27px;
+	}
+	.ratings
+	{
+		width: 121px;
+		height: 49px;
+	}
+	.malik-media
+	{
+		width: 142px;
+		height: 17px;
+	}
+	.bcause
+	{
+		width: 109px;
+		height: 21px;
+	}
+	.womgify
+	{
+		width: 123px;
+		height: 46px;
+	}
+	.clients-content
+	{
+		width: auto;
+		height: auto;
+		margin-top: 68px;
+		text-align: center;
+	}
+	.clients-content p
+	{
+		font-size: 18px;
+		font-weight: 400;
+		font-style: italic;
+		line-height: 30px;
+	}
+	.signature
+	{
+		margin-top: 45px;
+	}
+	.signature p
+	{
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 30px;
+	}
+	.ellipsis
+	{
+		width: 53px;
+		height: 13px;
+		margin: 40px 0 100px 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	.ellipsis-pic
+	{
+		width: 13px;
+		height: 13px;
+		background-color: #dddddd;
+		border-radius: 50%;
+	}
+	.ellipsis-pic:hover
+	{
+		background-color: #c0301c;
+	}
+}
